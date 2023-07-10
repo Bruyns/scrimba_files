@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 681px;
+  height: 459px;
+}
+header {
+  width: 550px;
+  height: 91px;
+}
+
+.container {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background: #FFF;
+}
+.Navbar {
+  width: 550px;
+  height: 91px;
+  flex-shrink: 0;
+  background: #21222A;
+}
+
+.Main {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background: #282D35;
+}
+
